@@ -11,13 +11,13 @@
 <body>
 <a-scene embedded arjs='sourceType: webcam;'>
     <a-assets>
-        <a-asset id="snack" src="assets/deadpool/scene.gltf"></a-asset>
+        <a-asset id="deadpool" src="assets/deadpool/scene.gltf"></a-asset>
     </a-assets>
 
     <!-- Create a anchor to attach your augmented reality -->
     <a-anchor>
          <a-light type="ambient" intensity="3.0" color="white" position="0 5 0"></a-light>
-        <a-entity scale="0.5 0.5 0.5" rotation="270 0 0" gltf-model="#snack"></a-entity>
+        <a-entity scale="0.5 0.5 0.5" rotation="270 0 0" gltf-model="#deadpool"></a-entity>
     </a-anchor>
 
     <!-- Define a static camera -->
