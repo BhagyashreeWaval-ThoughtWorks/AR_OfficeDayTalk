@@ -13,8 +13,8 @@
  * limitations under the License.
  */
 
-const MODEL_OBJ_URL = '/assets/webXR/ArcticFox_Posed.obj';
-const MODEL_MTL_URL = '/assets/webXR/ArcticFox_Posed.mtl';
+const MODEL_OBJ_URL = 'assets/webXR/ArcticFox_Posed.obj';
+const MODEL_MTL_URL = 'assets/webXR/ArcticFox_Posed.mtl';
 const MODEL_SCALE = 0.1;
 
 /**
